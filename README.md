@@ -1,5 +1,5 @@
 # flutter_todo
-A TODO List App created with Flutter
+A TODO List App created with Flutter 💙
 
 ## Getting Started
 
