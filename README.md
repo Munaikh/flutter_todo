@@ -3,7 +3,11 @@ A TODO list app built with Flutter 💙
 
 <img src="/readme-images/new-task-animation.gif" width="200"/> 
 
-## App Preview:
+# Try it out!!
+
+https://munaikh-todo.netlify.app/#/
+
+# App Preview:
 
 Light & Dark Mode!
 
