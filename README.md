@@ -1,5 +1,24 @@
 # flutter_todo
-A TODO List App created with Flutter 💙
+A TODO list app built with Flutter 💙
+
+<img src="/readme-images/new-task-animation.gif" width="200"/> 
+
+## App Preview:
+
+Light & Dark Mode!
+
+<img src="/readme-images/Tasks-light.png" width="200"/> <img src="/readme-images/Tasks-dark.png" width="200"/>
+
+Task Editor:
+
+<img src="/readme-images/task-editor-later.png" width="200"/>
+
+
+Color & Icon Picker!
+
+<img src="/readme-images/color-picker.png" width="200"/> <img src="/readme-images/icon-picker.png" width="200"/>
+
+
 
 ## Getting Started
 
