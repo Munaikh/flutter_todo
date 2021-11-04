@@ -1,5 +1,4 @@
 import 'dart:ui';
-
 import 'package:flex_color_picker/flex_color_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
@@ -45,7 +44,7 @@ class _HomePageState extends State<HomePage> {
               CustomScrollView(
                 slivers: [
                   SliverAppBar(
-                    title: Text('TODO List'),
+                    title: Text('TODO List', style: TextStyle(color: Theme.of(context).colorScheme.secondary)),
                     actions: [
                       // IconButton(
                       //   onPressed: () async {
