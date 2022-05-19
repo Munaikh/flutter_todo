@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     ThemeData theme = Theme.of(context);
-    Color primaryColor = theme.primaryColor;
+    // Color primaryColor = theme.primaryColor;
 
     return Scaffold(
       body: SafeArea(
@@ -279,7 +279,8 @@ class _TextEditorState extends State<TextEditor> {
       child: ClipRRect(
         borderRadius: BorderRadius.circular(16),
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
+          padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 5),
+          // padding:  EdgeInsets.symmetric(horizontal: (MediaQuery.of(context).size.width * 0.2), vertical: 5),
           child: Material(
             borderRadius: BorderRadius.circular(16),
             color: Theme.of(context).primaryColor,
@@ -325,7 +326,9 @@ class _TextEditorState extends State<TextEditor> {
                             IconData? icon =
                                 await FlutterIconPicker.showIconPicker(
                               context,
-                              iconPackMode: IconPack.material,
+                              // customIconPack: ,
+                              iconPackModes: [IconPack.material],
+                              // iconPackMode: IconPack.material,
                               adaptiveDialog: false,
                               iconPickerShape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(16),
